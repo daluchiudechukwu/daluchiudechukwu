@@ -6,4 +6,11 @@ Hey there! I'm Daluchi, a solutions architect seeking to deliver exceptional sol
     <a href="https://www.linkedin.com/in/daluchi-udechukwu/">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30px"/>
     </a>
-    </div>
+    <a href="https://udechukwudaluchi.wixsite.com/my-site/projects-8">
+          <img src="https://img.shields.io/badge/My Portfolio-8A2BE2" height="30px" />
+    </a>
+</div>
+
+-----
+
+
