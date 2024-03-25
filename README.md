@@ -12,5 +12,24 @@ Hey there! I'm Daluchi, a solutions architect seeking to deliver exceptional sol
 </div>
 
 -----
+## 💼LANGUAGES AND TOOLS
+Here are some of the tools and languages I have experience with:
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="100px"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="70px"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="70px"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="70px"/>
+</div>
+
+-----
+## 👩‍💻 PROJECTS
+### 1) Hosting and Caching of Static Website on AWS
+Deployed and cached a static website using Amazon S3 and CloudFront
+
+#### Services Used in Project
+-Amazon S3
+-Amazon CloudFront
+-Other technology used: Python
 
 
