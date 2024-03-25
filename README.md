@@ -5,5 +5,5 @@ Hey there! I'm Daluchi, a solutions architect seeking to deliver exceptional sol
 <div id="badges">
     <a href="https://www.linkedin.com/in/daluchi-udechukwu/">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30px"/>
-    </a> &nbsp &nbsp
+    </a>
     </div>
