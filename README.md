@@ -25,11 +25,12 @@ Here are some of the tools and languages I have experience with:
 -----
 ## 👩‍💻 PROJECTS
 ### 1) Hosting and Caching of Static Website on AWS
-Deployed and cached a static website using Amazon S3 and CloudFront
+Deployment and caching a static website using Amazon S3 and CloudFront. The first step was to create a static web page using HTML and CSS. I uploaded my objects in a bucket and hosted a static website on Amazon S3 and enforced permissions to make my website publicly accessible. I then created a CloudFront distribution from my S3 bucket for website caching.
+<img src="https://i.postimg.cc/FKpwzTBS/S3-static-hosting-architectural-diagram.png" alt="Alt text" style="width:auto;height:400px;">
 
 #### Services Used in Project
 -Amazon S3
 -Amazon CloudFront
--Other technology used: Python
+-Other technology used: Python, VSCode.
 
 
