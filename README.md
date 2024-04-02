@@ -25,12 +25,14 @@ Here are some of the tools and languages I have experience with:
 -----
 ## 👩‍💻 PROJECTS
 ### 1) Hosting and Caching of Static Website on AWS
-Deployment and caching a static website using Amazon S3 and CloudFront. The first step was to create a static web page using HTML and CSS. I uploaded my objects in a bucket and hosted a static website on Amazon S3 and enforced permissions to make my website publicly accessible. I then created a CloudFront distribution from my S3 bucket for website caching.
+Deployment and caching of a static website using Amazon S3 and CloudFront. The first step was to create a static web page using HTML and CSS. I uploaded my objects in a bucket, enabled the static website hosting configuration on Amazon S3, and enforced permissions to make my website publicly accessible. I then created a CloudFront distribution from my S3 bucket for website caching.
 <img src="https://i.postimg.cc/FKpwzTBS/S3-static-hosting-architectural-diagram.png" alt="Alt text" style="width:auto;height:400px;">
 
 #### Services Used in Project
--Amazon S3
--Amazon CloudFront
--Other technology used: Python, VSCode.
++ Amazon S3: The static HTML, CSS, and JavaScript files of the website are hosted in an Amazon S3 bucket. S3 ensures high availability and low latency for serving these files to users globally.
++ Amazon CloudFront: Created a global distribution in some regions so that my website will be cached in these regions and will be easily accessible by users when needed. CloudFront enables low latency by caching at different regions.
++ AWS Certificate Manager: This adds a security layer to the HTTP traffic allowed to access the cached content on Amazon CloudFront. Certificate Manager allows for the provisioning and managing of TLS/SSL certificates for use with AWS or internal resources.
+#### Project Deployment: 
 
+### 2) AWS End-to-End Serverless Math Application
 
