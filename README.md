@@ -55,3 +55,4 @@ Deployed a web server on Amazon EC2 and integrated Grafana with Amazon CloudWatc
 + Amazon EC2: Deployed a web server to generate metrics data for visualization. Amazon EC2 is a computing service.
 + Amazon CloudWatch: Implemented Grafana to collect CPU Utilization metrics data from Amazon CloudWatch to display visualization. Amazon CloudWatch is a monitoring service and metrics repository.
 + Grafana: Data visualization tool used to visualize CPU Utilization data from my virtual instance montiored by CloudWatch.
+#### Project Deployment: https://github.com/daluchiudechukwu/Grafana-Dashboard-Integration-with-AWS-CloudWatch
