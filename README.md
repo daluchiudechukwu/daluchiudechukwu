@@ -45,3 +45,13 @@ Made a website that could calculate math exponents. Hosted the front web page of
 + API Gateway: Implemented this to help facilitate the request and deliveries of data and services between AWS Lambda and the math application.
 + DynamoDB: Created a table to store the results from the math calculations from the application.
 + IAM: To set permissions for the execution of AWS Lambda.
++ Others: VSCode.
+#### Project Deployment
+
+### 3) Grafana Dashboard Integration with AWS CloudWatch
+Deployed a web server on Amazon EC2 and integrated Grafana with Amazon CloudWatch to display a dynamic dashboard from the CPU Utilization metric data of my EC2 instance. Also integrated IAM to allow Grafana to make the executions.
+
+#### Services Used in Project
++ Amazon EC2: Deployed a web server to generate metrics data for visualization. Amazon EC2 is a computing service.
++ Amazon CloudWatch: Implemented Grafana to collect CPU Utilization metrics data from Amazon CloudWatch to display visualization. Amazon CloudWatch is a monitoring service and metrics repository.
++ Grafana: Data visualization tool used to visualize CPU Utilization data from my virtual instance montiored by CloudWatch.
