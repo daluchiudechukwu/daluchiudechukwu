@@ -32,7 +32,16 @@ Deployment and caching of a static website using Amazon S3 and CloudFront. The f
 + Amazon S3: The static HTML, CSS, and JavaScript files of the website are hosted in an Amazon S3 bucket. S3 ensures high availability and low latency for serving these files to users globally.
 + Amazon CloudFront: Created a global distribution in some regions so that my website will be cached in these regions and will be easily accessible by users when needed. CloudFront enables low latency by caching at different regions.
 + AWS Certificate Manager: This adds a security layer to the HTTP traffic allowed to access the cached content on Amazon CloudFront. Certificate Manager allows for the provisioning and managing of TLS/SSL certificates for use with AWS or internal resources.
-#### Project Deployment: 
++ Others: VS code.
+#### Project Deployment: https://github.com/daluchiudechukwu/CloudFront-Distribution-of-Static-Website
 
 ### 2) AWS End-to-End Serverless Math Application
+Made a website that could calculate math exponents. Hosted the front web page of this website on AWS Amplify. I then created a lambda function to implement this math functionality. I implemented API gateway to use the lambda function and communicate with the website. I created an Amazon DynamoDB table to store math results from the website.
+<img src="https://i.postimg.cc/25NpFjyF/math-app-architecture.png" alt="Alt text" style="width:auto;height:400px;">
 
+#### Services Used in Project
++ AWS Amplify: The front end of the website was deployed on Amplify. AWS Amplify is used to deploy highly scalable web applications.
++ AWS Lambda: Supplied a Python code to drive events to calculate the math functionality for the math application. AWS Lambda is a serverless, event-driven compute service that lets you run code.
++ API Gateway: Implemented this to help facilitate the request and deliveries of data and services between AWS Lambda and the math application.
++ DynamoDB: Created a table to store the results from the math calculations from the application.
++ IAM: To set permissions for the execution of AWS Lambda.
