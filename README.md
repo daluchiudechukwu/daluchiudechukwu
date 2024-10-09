@@ -1,6 +1,6 @@
 ## Daluchi Udechukwu
-### Cloud Solutions Architect / DevOps Engineer
-Hey there! I'm Daluchi, a solutions architect seeking to deliver exceptional solutions that align with business objectives. I have one year of experience architecting cloud solutions with AWS services. I've been trained in thoroughly comprehending clients' challenges and implementing cloud technologies tailored to specific needs. Join me on GitHub where I share some of the projects I have worked on, insights and codes reflecting my contribution in the tech ecosystem.
+### DevOps Engineer
+Hey there! I'm Daluchi, a DevOps engineer seeking to deliver exceptional solutions that align with business objectives. I have one year of experience implementing cloud solutions with Azure and AWS services. I've been trained in thoroughly comprehending clients' challenges and implementing cloud technologies tailored to specific needs. Join me on GitHub where I share some of the projects I have worked on, insights and codes reflecting my contribution in the tech ecosystem.
 [LinkedIn](https://www.linkedin.com/in/daluchi-udechukwu/)
 <div id="badges">
     <a href="https://www.linkedin.com/in/daluchi-udechukwu/">
@@ -57,3 +57,25 @@ Deployed a web server on Amazon EC2 and integrated Grafana with Amazon CloudWatc
 + Amazon CloudWatch: Implemented Grafana to collect CPU Utilization metrics data from Amazon CloudWatch to display visualization. Amazon CloudWatch is a monitoring service and metrics repository.
 + Grafana: Data visualization tool used to visualize CPU Utilization data from my virtual instance montiored by CloudWatch.
 #### Project Deployment: https://github.com/daluchiudechukwu/Grafana-Dashboard-Integration-with-AWS-CloudWatch
+
+### 4) Apache Web Server on Docker with Azure
+Deployed a linux virtual machine as a docker host to build application as a docker image and utilize apache web server to display static web page.
+[![Screenshot-2024-10-08-110712.png](https://i.postimg.cc/28cvNwQW/Screenshot-2024-10-08-110712.png)](https://postimg.cc/nCmMvqwV)
+-----
+[![Screenshot-2024-10-08-110915.png](https://i.postimg.cc/mDyzXNZt/Screenshot-2024-10-08-110915.png)](https://postimg.cc/cg6L63nS)
+-----
+[![Screenshot-2024-10-08-111503.png](https://i.postimg.cc/V6gvBf4t/Screenshot-2024-10-08-111503.png)](https://postimg.cc/7GCqqyFP)
+-----
+[![Screenshot-2024-10-08-153019.png](https://i.postimg.cc/QMkdh82z/Screenshot-2024-10-08-153019.png)](https://postimg.cc/HJngtgs0)
+-----
+[![Screenshot-2024-10-08-153324.png](https://i.postimg.cc/sx8VwvWM/Screenshot-2024-10-08-153324.png)](https://postimg.cc/Fky5KFDv)
+-----
+[![Screenshot-2024-10-08-154800.png](https://i.postimg.cc/J7d41dFR/Screenshot-2024-10-08-154800.png)](https://postimg.cc/4nVTPwZ0)
+-----
+[![Screenshot-2024-10-08-160020.png](https://i.postimg.cc/Jzj157zh/Screenshot-2024-10-08-160020.png)](https://postimg.cc/LJ6KHpfd)
+
+#### Services Used in Project
++ Terraform: Used terraform to automate the deployment the azure virtual machine.
++ Docker: Installed docker on the VM and used it to build my application as docker image and run it as container.
++ Apache web server: Installed apache on docker image and copied application web content to replace default apache web page.
+  
