@@ -84,3 +84,12 @@ Deployed a linux virtual machine as a docker host to build application as a dock
 + Docker: Installed docker on the VM and used it to build my application as docker image and run it as container.
 + Apache web server: Installed apache on docker image and copied application web content to replace default apache web page.
   
+### 5) Azure DevOps for CI/CD of a .NET application to Azure App Service
+Deployed a .NET application to app service using Azure Pipelines
+[![Screenshot-2025-01-16-155420.png](https://i.postimg.cc/cC4M226p/Screenshot-2025-01-16-155420.png)](https://postimg.cc/CBXqfvG7)
+----
+[![Screenshot-2025-01-16-155436.png](https://i.postimg.cc/s2dPsvv9/Screenshot-2025-01-16-155436.png)](https://postimg.cc/gxsLKcyn)
+
+#### Services Used in Project
++ Azure DevOps
++ Azure App Service
